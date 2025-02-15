@@ -1,0 +1,34 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Color Reflex Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="score-board">
+            <span>Score: <span id="score">0</span></span>
+            <span>Time: <span id="timer">10</span>s</span>
+            <span>Level: <span id="level">1</span></span>
+        </div>
+        <div class="calculator">
+            <div id="screen" class="screen"></div>
+            <div class="buttons">
+                <button class="color-btn" data-color="red"></button>
+                <button class="color-btn" data-color="orange"></button>
+                <button class="color-btn" data-color="yellow"></button>
+                <button class="color-btn" data-color="green"></button>
+                <button class="color-btn" data-color="blue"></button>
+                <button class="color-btn" data-color="indigo"></button>
+                <button class="color-btn" data-color="violet"></button>
+                <button class="color-btn" data-color="black"></button>
+                <button class="color-btn" data-color="white"></button>
+            </div>
+        </div>
+        <button id="start-btn">Start Game</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
